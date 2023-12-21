@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+.table-container{
+   margin-left: 100px;
+}
+
+.btn{
+    background-color: rgb(77, 77, 227);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+table ,tr,td{
+   padding: 15px;
+   border: 2px solid black;
+   border-collapse: collapse;
+   background-color: wheat;
+}
+
+.new-todo,.update-todo{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    background-color: wheat;
+}
+
+.form-group input{
+   width: 70%;
+   height: 20px;
+   border-radius: 10px;
+   text-align: center;
+   margin-bottom: 20px;
+
+}
+
+.form-group label{
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+ }
+
+ .confirm p{
+    color: red;
+    font-size: 50px;
+ }
